@@ -1,7 +1,7 @@
 function funcionQueLlamaLaGeolocalizacion(posicion)
 {
     console.log("Salta geolocalizacion");
-    console.log("Estas en "+ posicion.coords.latitude + ", "+posicion.coords.longitude);
+    document.write("Estas en "+ posicion.coords.latitude + ", "+posicion.coords.longitude);
 
 }
 
